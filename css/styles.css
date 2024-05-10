@@ -289,6 +289,9 @@ border-bottom: 1px solid #ececec;
 
 
 
+
+
+
 .feature-list .ul{
     display: flex;
     margin-top: 0px;
@@ -524,3 +527,12 @@ a {
     background: #2196f3;
 }
 
+.links .navigation{
+    border-radius: 4px;
+    padding: 6px 22px;
+    background: #f5f4fa;
+}
+
+.tagline .img{
+    display: block;
+}
