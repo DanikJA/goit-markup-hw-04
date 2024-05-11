@@ -561,18 +561,8 @@ a {
 }
 
 
-.icon1{
+.icon {
     margin-right: 10px;
     fill: currentColor;
-    width: 16px;
-    height: 12px;
-    align-items: center;
 }
 
-.icon2{
-    margin-right: 10px;
-    fill: currentColor;
-    width: 10px;
-    height: 16px;
-    align-items: center;
-}
