@@ -55,7 +55,7 @@ body{
         to right,
          rgba(47, 48, 58, 0.4),
          rgba(47, 48, 58, 0.4)
-         ), url(../Images/Img.hero.jpg);
+         ), url(../іmages/Img.hero.jpg);
     background-position: center;
     max-width: 1600px;
     height: 600px;
@@ -293,7 +293,7 @@ border-bottom: 1px solid #ececec;
     content:"";
     width: 20px;
     height: 20px;
-    background-image: url(../Images/envelope.svg);
+    background-image: url(../іmages/envelope.svg);
     background-repeat: no-repeat;
     margin-top: 34px;
     margin-right: 2px;
@@ -303,7 +303,7 @@ border-bottom: 1px solid #ececec;
     content: "";
     width: 20px;
     height: 20px;
-    background-image: url(../Images/smartphone.svg);
+    background-image: url(../іmages/smartphone.svg);
     background-repeat: no-repeat;
     margin-top: 32px;
     width: 10px;
@@ -558,4 +558,12 @@ a {
 
 .tagline .img{
     display: block;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
 }
