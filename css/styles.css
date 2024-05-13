@@ -12,6 +12,11 @@ ul,h1,h2,h3,h4,h5,h6,p,li {
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 .site-second{
     margin-left: auto;
 }
@@ -32,6 +37,7 @@ body{
 --studio-black:#000;
 --hero-color:#2f303a;
 --grey-color:#757575;
+--bottom-color:#afb1b8;
 }
 
 .web-studio {
@@ -160,7 +166,7 @@ letter-spacing: 0.02em;
     color: var(--blue);
 }
 
-.site-second .link-mails {
+.site-second .studio-link {
     color:var(--grey-color);
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -170,8 +176,13 @@ letter-spacing: 0.02em;
    justify-content: center;
 }
 
-.site-second .link-mails:hover,
-.site-second .link-mails:focus {
+.studio-link{
+    display: flex;
+    align-items: center;
+}
+
+.site-second .studio-link:hover,
+.site-second .studio-link:focus {
 color:var(--blue);
 }
 
@@ -386,11 +397,13 @@ border-bottom: 1px solid #ececec;
 
  .social-items{
     background-color: var(--background-white)
+    
  }
 
  .social-list {
      display: flex;
      justify-content: center;
+     align-items: center;
      gap: 10px;
      list-style: none;
      margin-top: 16px;
@@ -405,15 +418,50 @@ border-bottom: 1px solid #ececec;
  }
 
  .social-links {
-     fill: #AFB1B8;
+     fill: var(--bottom-color);
  }
 
  .social-links:hover,
  .social-links:focus {
      background-color: var(--blue);
-     fill: #fff;
+     fill: var(--background-white);
  }
  
+.bottom-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--main-color);
+        padding-top: 94px;
+        padding-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+    padding: 0;
+    gap: 30px;
+    padding-bottom: 94px;
+}
+
+.clients-links {
+display: flex;
+align-items: center;
+justify-content: center;
+width: 170px;
+height: 92px;
+border: 1px solid var(--bottom-color);
+border-radius: 4px;
+fill: var(--bottom-color);
+}
+
+.clients-links:hover,
+.clients-links:focus {
+    border: 1px solid #2196F3;
+    fill: #2196F3;
+}
+
 
 
 
