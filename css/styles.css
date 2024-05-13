@@ -166,7 +166,8 @@ letter-spacing: 0.02em;
     font-weight: 500;
     padding-top: 32px;
    padding-bottom: 32px;
-   display: block;
+   display: flex;
+   justify-content: center;
 }
 
 .site-second .link-mails:hover,
@@ -288,33 +289,6 @@ border-bottom: 1px solid #ececec;
 }
 
 
-
-.site-second::before {
-    content:"";
-    width: 20px;
-    height: 20px;
-    background-image: url(../іmages/envelope.svg);
-    background-repeat: no-repeat;
-    margin-top: 34px;
-    margin-right: 2px;
-}
-
-.site-second::after{
-    content: "";
-    width: 20px;
-    height: 20px;
-    background-image: url(../іmages/smartphone.svg);
-    background-repeat: no-repeat;
-    margin-top: 32px;
-    width: 10px;
-    height: 16px;
-    margin-left: 2px;
-    fill: #757575;
-    
-
-}
-
-
 .feature-list .ul{
     display: flex;
     margin-top: 0px;
@@ -404,6 +378,41 @@ border-bottom: 1px solid #ececec;
     margin-bottom: 10px;
  }
 
+ .icon {
+     margin-right: 10px;
+     fill: currentColor;
+     justify-content: center;
+ }
+
+ .social-items{
+    background-color: var(--background-white)
+ }
+
+ .social-list {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     list-style: none;
+     margin-top: 16px;
+ }
+
+ .social-links {
+     display: flex;
+     justify-content: center;
+     width: 44px;
+     height: 44px;
+     border-radius: 50%;
+ }
+
+ .social-links {
+     fill: #AFB1B8;
+ }
+
+ .social-links:hover,
+ .social-links:focus {
+     background-color: var(--blue);
+     fill: #fff;
+ }
  
 
 
@@ -556,13 +565,8 @@ a {
     background: #f5f4fa;
 }
 
-.tagline .img{
-    display: block;
-}
 
 
-.icon {
-    margin-right: 10px;
-    fill: currentColor;
-}
+
+
 
