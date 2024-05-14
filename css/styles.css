@@ -397,7 +397,7 @@ border-bottom: 1px solid #ececec;
 
  .social-items{
     background-color: var(--background-white)
-    
+
  }
 
  .social-list {
@@ -463,8 +463,70 @@ fill: var(--bottom-color);
 }
 
 
+.middle-link {
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+fill: var(--main-color);
+border-radius: 4px;
+background: #f5f4fa;
+margin-bottom: 30px;
+}
 
 
+.footer-div {
+    display: flex;
+    margin-left: 70px;
+    align-items: baseline;
+    flex-direction: column;
+
+}
+
+.bottom-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+     color: #fff;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+     margin-left: 100px;
+     align-items: baseline;
+     flex-direction: column;
+     
+}
+
+.bottom-links:hover,
+.bottom-links:focus {
+    background-color: var(--blue);
+}
+
+.bottom-links {
+        fill: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+}
+
+.bottom-list {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.social-li{
+    backgroundcolor: #fff;
+}
 
                                              /* Portfolio HTML */   
 
