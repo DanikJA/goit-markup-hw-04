@@ -495,8 +495,6 @@ margin-bottom: 30px;
         color: #fff;
         margin-bottom: 20px;
         padding: 0;
-        display: flex;
-        margin-left: 100px;
         align-items: baseline;
         flex-direction: column;
      
@@ -520,14 +518,21 @@ margin-bottom: 30px;
 
 .bottom-list {
     display: flex;
-    gap: 10px;
-    list-style: none;
+        list-style: none;
+        padding: 0;
+        fill: #fff;
+        gap: 10px;
 }
 
 .social-li{
     backgroundcolor: #fff;
 }
 
+
+ .container-footer{
+    display: flex;
+    align-items: baseline;
+}
                                              /* Portfolio HTML */   
 
  .links .navigation-first {
