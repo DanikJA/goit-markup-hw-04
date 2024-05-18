@@ -83,7 +83,6 @@ body{
 }
 
 .button {
-    border: 1 px solid transparent;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -102,6 +101,7 @@ body{
     padding-right: 32px;
     padding-bottom: 10px;
     padding-left: 32px;
+    border: none;
 }
 
 .title{
@@ -286,10 +286,7 @@ color: var(--background-white);
     display: flex;
 }
 
-.header {
-border-bottom: 1px solid #ececec;
 
-}
 
 .site-nav .item:not(:last-child){
     margin-right: 50px;
@@ -407,10 +404,12 @@ border-bottom: 1px solid #ececec;
      gap: 10px;
      list-style: none;
      margin-top: 16px;
+     
  }
 
  .social-links {
      display: flex;
+     align-items: center;
      justify-content: center;
      width: 44px;
      height: 44px;
@@ -428,21 +427,18 @@ border-bottom: 1px solid #ececec;
  }
  
 .bottom-title{
-    font-family: "Roboto", sans-serif;
         font-weight: 700;
         font-size: 36px;
         letter-spacing: 0.03em;
         text-align: center;
         color: var(--main-color);
-        padding-top: 94px;
-        padding-bottom: 50px;
+        margin-bottom: 50px;
 }
 
 .clients-list {
     display: flex;
     padding: 0;
     gap: 30px;
-    padding-bottom: 94px;
 }
 
 .clients-links {
@@ -463,7 +459,7 @@ fill: var(--bottom-color);
 }
 
 
-.middle-link {
+.middle-div {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -471,17 +467,23 @@ border-radius: 4px;
 width: 270px;
 height: 120px;
 fill: var(--main-color);
-border-radius: 4px;
 background: #f5f4fa;
 margin-bottom: 30px;
 }
 
 
-.footer-div {
+.footer-div1 {
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.footer-div2 {
     display: flex;
     margin-left: 70px;
     align-items: baseline;
     flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -531,8 +533,15 @@ margin-bottom: 30px;
 
  .container-footer{
     display: flex;
-    margin-left: 50px;
+    align-items: baseline;
 }
+
+.clients-section{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+
                                              /* Portfolio HTML */   
 
  .links .navigation-first {
@@ -543,12 +552,15 @@ margin-bottom: 30px;
      font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    border: none;
  }
 
  .links .navigation:focus,
  .links .navigation:hover {
      background: var(--blue);
      color: var(--background-white);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+        
  }
 
  .links .navigation {
@@ -560,6 +572,7 @@ margin-bottom: 30px;
         text-align: center;
         color: var(--main-color);
         background-color: var(--second-white);
+        border: none;
  }
 
  li {
@@ -569,6 +582,10 @@ margin-bottom: 30px;
  button {
      font-family: inherit;
  }
+.tagline .img:hover,
+.tagline .img:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
 
  .tagline .subtitles {
     color: var(--main-color);
@@ -586,7 +603,10 @@ margin-bottom: 30px;
         letter-spacing: 0.03em;
         color: var(--grey-color);
 }
-
+ 
+.list-links{
+    display: block;
+}
 
                                         /* Footer */
  .footer {
