@@ -76,6 +76,8 @@ body {
     background-position: center;
     max-width: 1600px;
     height: 600px;
+    justify-content: center;
+    align-items: center;
 }
 
 .typography {
@@ -552,7 +554,7 @@ li {
 }
 
 
-/* Portfolio HTML */
+                                            /* Portfolio HTML */
 
 .links .navigation-first {
     font-family: "Roboto", sans-serif;
@@ -594,7 +596,7 @@ button {
 }
 
 .tagline .img:hover,
-.tagline .img:hover {
+.tagline .img:focus {
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
 
