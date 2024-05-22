@@ -76,8 +76,8 @@ body {
     background-position: center;
     max-width: 1600px;
     height: 600px;
-    justify-content: center;
-    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .typography {
